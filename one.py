@@ -17,7 +17,7 @@ for i in range(0,n):
   dataFile.write(str(randNum)+"\n")
 #  randTab[randNum] += 1
   countTab[randNum] += 1
-for i in range(0,11):
+for i in range(1,11):
   countFile.write(str(i) + ":" + str(countTab[i]) + "\n")
 dataFile.close()
 countFile.close()
